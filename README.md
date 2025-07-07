@@ -1,2 +1,18 @@
-# Hostel-Registration-System
-A simple web-based application that allows students to register for hostel accommodation. Built using HTML, CSS, PHP, and MySQL, it features a clean form UI and stores submissions in a database for easy management.
+# Hostel Registration System
+
+A simple hostel registration web application built using HTML, CSS, PHP, and MySQL.
+
+## Features
+- User-friendly form for hostel registration
+- Stores data in MySQL database
+- Clean and responsive UI
+
+## Technologies Used
+- HTML5
+- CSS3
+- PHP
+- MySQL
+
+## Setup Instructions
+
+1. Clone this repo:
