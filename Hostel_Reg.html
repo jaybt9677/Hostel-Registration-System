@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Hostel Registration Form</h2>
+        <form action="process.php" method="POST">
+            <table>
+                <tr>
+                    <td><label for="full_name">Full Name:</label></td>
+                    <td><input type="text" id="full_name" name="full_name" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="dob">Date of Birth:</label></td>
+                    <td><input type="date" id="dob" name="dob" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td>
+                        <select id="gender" name="gender" required>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="blood_group">Blood Group:</label></td>
+                    <td><input type="text" id="blood_group" name="blood_group" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="contact">Contact Number:</label></td>
+                    <td><input type="tel" id="contact" name="contact" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email Address:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="permanent_address">Permanent Address:</label></td>
+                    <td><textarea id="permanent_address" name="permanent_address" required></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label for="guardian_contact">Guardian/Parent Contact:</label></td>
+                    <td><input type="tel" id="guardian_contact" name="guardian_contact" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="id_proof_number">ID Proof Number:</label></td>
+                    <td><input type="text" id="id_proof_number" name="id_proof_number" required></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Submit" class="submit-btn">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
